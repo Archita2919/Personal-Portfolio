@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archita's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7814ba552.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <br>
+                <h2>Hi, I'm Archita Panda
+                    <br>Welcome to my Portfolio!!!
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <!--About Section-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>I am a passionate and dedicated fresher in B.Tech Computer Engineering, eager to dive into the
+                        world of technology and innovation. With a strong foundation in programming, problem-solving,
+                        and software development, I am driven to explore cutting-edge advancements in computing and
+                        their real-world applications. My academic projects and hands-on learning experiences have honed
+                        my analytical thinking and teamwork skills. I am enthusiastic about contributing to challenging
+                        projects, continuously learning, and growing as a professional in the tech industry. Outside
+                        academics, I enjoy exploring emerging technologies and engaging in creative problem-solving
+                        activities.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Developing interactive user interfaces</li>
+                            <li><span>Full Stack Developer</span><br>Develops frontend and backend systems with database
+                            </li>
+                            <li><span>Full Stack Mern Developer</span><br>Develops full-stack applications with MERN
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Foodie Fiesta</span><br>A Full Stack MERN project</li>
+                            <li><span>Frosty Flavors</span><br>A JSP integrated Cake Ordering System</li>
+                            <li><span>Campus Inventory System</span><br>A Campus Inventory Project within a Campus</li>
+                            <li><span>Weather Web-Application</span><br>A Web-based Application for Weather Forecast
+                            </li>
+                            <li><span>To-do List</span><br>A Web-based To-do List Website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2025</span><br>B.Tech in Computer Engineering (Software Engineering) from
+                                Gandhinagar</li>
+                            <li><span>2019-2022</span><br>Diploma in Computer Engineering from Bhuj</li>
+                            <li><span>2010-2019</span><br>Higher Secondary Education(Till 10th) from Bhuj</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Service Section-->
+
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Designs, develops, and maintains functional, responsive, and visually appealing websites to meet client needs.</p>
+                <a href="#">LEARN MORE</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Full Stack Developer</h2>
+                <p>Builds and manages complete web applications, handling both frontend user interfaces and backend server functionality with database integration.</p>
+                <a href="#">LEARN MORE</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>Frontend Developer</h2>
+                <p>Creates responsive, interactive user interfaces for websites and web applications.</p>
+                <a href="#">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Portfolio/My Work-->
+
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3><b>Food Ordering Web-Application</b></h3>
+                    <p>A food ordering web application is a platform that enables users to browse menus, select items, and place orders for delivery or pickup from our restaurant. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.webp">
+                <div class="layer">
+                    <h3><b>Cake Ordering Website</b></h3>
+                    <p>A cake ordering system enables users to browse cake designs, customize flavors and sizes, place orders all through an online platform. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3><b>Weather forecast Website</b></h3>
+                    <p>A weather forecast website provides users with real-time and future weather updates, including temperature, precipitation, wind, and other conditions, based on their location. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--Contact Section-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-regular fa-envelope"></i> pandaarchita19@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/archita-panda-145811280"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_architaaa__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/panda_archita"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="images/Archita_Panda_Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Write your Message here!!" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Archita</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3ORHIQnOQKJGRYSb_Kfqsof6Vtt3y3hvqSHQF9yux_LRrz1QA0s5kQmIdfV6XjCkyOQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thank You!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</html>
