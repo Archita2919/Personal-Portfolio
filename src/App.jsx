@@ -74,7 +74,7 @@ function App() {
             <i className="fa-solid fa-bars" onClick={() => setMenuOpen(true)}></i>
           </nav>
           <div className="header-text">
-            <p>Full Stack Developer</p>
+            <p>Frontend Developer | MERN Stack | Angular | Vue.js</p>
             <br />
             <h2>
               Hi, I&apos;m Archita Panda
@@ -94,17 +94,16 @@ function App() {
             <div className="about-col-2">
               <h2 className="sub-title">About Me</h2>
               <p>
-                I am a passionate and dedicated fresher in B.Tech Computer
-                Engineering, eager to dive into the world of technology and
-                innovation. With a strong foundation in programming,
-                problem-solving, and software development, I am driven to explore
-                cutting-edge advancements in computing and their real-world
-                applications. My academic projects and hands-on learning
-                experiences have honed my analytical thinking and teamwork skills.
-                I am enthusiastic about contributing to challenging projects,
-                continuously learning, and growing as a professional in the tech
-                industry. Outside academics, I enjoy exploring emerging
-                technologies and engaging in creative problem-solving activities.
+                I am a frontend developer with hands-on experience in React,
+                Angular 20, and Vue 3, along with practical full-stack exposure
+                in the MERN ecosystem. During my internship at ARK Infosoft, I
+                delivered production-ready modules for education and healthcare
+                platforms, integrated third-party APIs, and supported
+                deployment-ready releases with strong focus on performance and
+                usability. I am passionate about building clean, responsive, and
+                accessible web experiences that solve real user problems, and I
+                am actively seeking full-time software opportunities to
+                contribute and grow.
               </p>
 
               <div className="tab-titles">
@@ -131,19 +130,24 @@ function App() {
               <div className={getContentClass("skills")} id="skills">
                 <ul>
                   <li>
-                    <span>Frontend Developer</span>
+                    <span>Languages</span>
                     <br />
-                    Developing interactive user interfaces
+                    JavaScript (ES6+), Java, Python, C, C++
                   </li>
                   <li>
-                    <span>Full Stack Developer</span>
+                    <span>Frontend</span>
                     <br />
-                    Develops frontend and backend systems with database
+                    React JS, Angular 20, Vue 3, HTML5, CSS3, Tailwind CSS
                   </li>
                   <li>
-                    <span>Full Stack Mern Developer</span>
+                    <span>Backend & DB</span>
                     <br />
-                    Develops full-stack applications with MERN
+                    Node.js, Express.js, REST APIs, MongoDB, MySQL
+                  </li>
+                  <li>
+                    <span>Tools & Deployment</span>
+                    <br />
+                    FTP Deployment, GitHub, Figma, Canva, VS Code
                   </li>
                 </ul>
               </div>
@@ -151,24 +155,27 @@ function App() {
               <div className={getContentClass("experience")} id="experience">
                 <ul>
                   <li>
-                    <span>Foodie Fiesta</span>
-                    <br />A Full Stack MERN project
+                    <span>Frontend Developer Intern | ARK Infosoft</span>
+                    <br />
+                    Jun 2025 - Mar 2026 | Ahmedabad, Gujarat
                   </li>
-                  <li>
-                    <span>Frosty Flavors</span>
-                    <br />A JSP integrated Cake Ordering System
+                  <li className="internship-project">
+                    <span>Paintastica - Student Learning Platform (Angular 20)</span>
+                    <br />
+                    Built a lazy-loaded 4-module SPA and integrated third-party
+                    APIs for course content, e-commerce, and discussions.
                   </li>
-                  <li>
-                    <span>Campus Inventory System</span>
-                    <br />A Campus Inventory Project within a Campus
+                  <li className="internship-project">
+                    <span>Doctor Diary - Healthcare Diary System (Vue 3)</span>
+                    <br />
+                    Developed appointment scheduling and real-time
+                    patient-doctor interaction flows with optimistic UI updates.
                   </li>
-                  <li>
-                    <span>Weather Web-Application</span>
-                    <br />A Web-based Application for Weather Forecast
-                  </li>
-                  <li>
-                    <span>To-do List</span>
-                    <br />A Web-based To-do List Website
+                  <li className="internship-project">
+                    <span>ABHA Frontend Module (Government Healthcare Initiative)</span>
+                    <br />
+                    Implemented ABHA linking and patient consent screens aligned
+                    with NHA accessibility and UI guidelines.
                   </li>
                 </ul>
               </div>
@@ -178,18 +185,14 @@ function App() {
                   <li>
                     <span>2022-2025</span>
                     <br />
-                    B.Tech in Computer Engineering (Software Engineering) from
-                    Gandhinagar
+                    B.Tech in Computer Engineering (Software Engineering),
+                    Institute of Advanced Research, Gandhinagar (First Class with Distinction)
                   </li>
                   <li>
-                    <span>2019-2022</span>
+                    <span>2019-2021</span>
                     <br />
-                    Diploma in Computer Engineering from Bhuj
-                  </li>
-                  <li>
-                    <span>2010-2019</span>
-                    <br />
-                    Higher Secondary Education(Till 10th) from Bhuj
+                    Diploma in Computer Engineering, Government Polytechnic,
+                    Bhuj (CGPA 8.80/10)
                   </li>
                 </ul>
               </div>
@@ -203,6 +206,15 @@ function App() {
           <h2 className="sub-title">My Services</h2>
           <div className="services-list">
             <div>
+              <i className="fa-brands fa-js"></i>
+              <h2>Frontend Developer</h2>
+              <p>
+                Creates responsive, interactive user interfaces for websites and
+                web applications.
+              </p>
+              {/* <a href="#">LEARN MORE</a> */}
+            </div>
+            {/* <div>
               <i className="fa-solid fa-code"></i>
               <h2>Web Developer</h2>
               <p>
@@ -210,7 +222,7 @@ function App() {
                 visually appealing websites to meet client needs.
               </p>
               <a href="#">LEARN MORE</a>
-            </div>
+            </div> */}
             <div>
               <i className="fa-solid fa-desktop"></i>
               <h2>Full Stack Developer</h2>
@@ -219,17 +231,9 @@ function App() {
                 frontend user interfaces and backend server functionality with
                 database integration.
               </p>
-              <a href="#">LEARN MORE</a>
+              {/* <a href="#">LEARN MORE</a> */}
             </div>
-            <div>
-              <i className="fa-brands fa-js"></i>
-              <h2>Frontend Developer</h2>
-              <p>
-                Creates responsive, interactive user interfaces for websites and
-                web applications.
-              </p>
-              <a href="#">LEARN MORE</a>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -239,56 +243,108 @@ function App() {
           <h2 className="sub-title">My Work</h2>
           <div className="work-list">
             <div className="work">
-              <img src="/images/work-1.jpg" alt="Food ordering web application" />
+              <img src="/images/Foody_Fiesta.jpg" alt="FoodyFiesta project" />
               <div className="layer">
                 <h3>
-                  <b>Food Ordering Web-Application</b>
+                  <b>FoodyFiesta</b>
                 </h3>
                 <p>
-                  A food ordering web application is a platform that enables
-                  users to browse menus, select items, and place orders for
-                  delivery or pickup from our restaurant.
+                  Food ordering web app with responsive UI and real-time menu
+                  updates.
                 </p>
-                <a href="#">
+                <a
+                  href="https://foodyfiesta.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-solid fa-link"></i>
                 </a>
               </div>
             </div>
             <div className="work">
-              <img src="/images/work-2.webp" alt="Cake ordering website" />
+              <img src="/images/To_do_list.jpg" alt="To-do App project" />
               <div className="layer">
                 <h3>
-                  <b>Cake Ordering Website</b>
+                  <b>To-do App</b>
                 </h3>
                 <p>
-                  A cake ordering system enables users to browse cake designs,
-                  customize flavors and sizes, place orders all through an online
-                  platform.
+                  Productivity app to add, manage, and track daily tasks
+                  efficiently.
                 </p>
-                <a href="#">
+                <a
+                  href="https://task-bee.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-solid fa-link"></i>
                 </a>
               </div>
             </div>
             <div className="work">
-              <img src="/images/work-3.jpg" alt="Weather forecast website" />
+              <img src="/images/tic_tac_toe.jpg" alt="Tic-tac-toe game project" />
               <div className="layer">
                 <h3>
-                  <b>Weather forecast Website</b>
+                  <b>Tic-tac-toe Game</b>
                 </h3>
                 <p>
-                  A weather forecast website provides users with real-time and
-                  future weather updates, including temperature, precipitation,
-                  wind, and other conditions, based on their location.
+                  Classic circle-cross game built with interactive frontend
+                  logic.
                 </p>
-                <a href="#">
+                <a
+                  href="https://circle-crossgame.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+            {/* <div className="work">
+              <img src="/images/Netflix.jpg" alt="Netflix clone project" />
+              <div className="layer">
+                <h3>
+                  <b>Netflix Clone</b>
+                </h3>
+                <p>
+                  Streaming-platform style UI clone with modern layout and
+                  reusable components.
+                </p>
+                <a
+                  href="https://nfx-webapp-clone.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div> */}
+            <div className="work">
+              <img src="/images/weather.jpg" alt="Weather app project" />
+              <div className="layer">
+                <h3>
+                  <b>Weather App</b>
+                </h3>
+                <p>
+                  Weather forecasting app with location search and real-time
+                  climate details.
+                </p>
+                <a
+                  href="https://sunandstorm-app.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa-solid fa-link"></i>
                 </a>
               </div>
             </div>
           </div>
-          <a href="#" className="btn">
-            See More
+          <a
+            href="https://github.com/Archita2919?tab=repositories"
+            className="btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See More Projects
           </a>
         </div>
       </div>
@@ -301,10 +357,10 @@ function App() {
               <p>
                 <i className="fa-regular fa-envelope"></i>
                 {" "}
-                pandaarchita19@gmail.com
+                pandaarchita6@gmail.com
               </p>
               <p>
-                <i className="fa-solid fa-phone"></i> 0123456789
+                <i className="fa-solid fa-phone"></i> +91 63592 32196
               </p>
               <div className="social-icons">
                 <a href="https://www.linkedin.com/in/archita-panda-145811280">
