@@ -89,7 +89,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="about-col-1">
-              <img src="/images/user.jpg" alt="Archita Panda" />
+              <img src="/images/About_me.jpg" alt="Archita Panda" />
             </div>
             <div className="about-col-2">
               <h2 className="sub-title">About Me</h2>

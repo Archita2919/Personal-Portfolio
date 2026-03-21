@@ -80,6 +80,10 @@ nav ul li a:hover::after {
   color: #ababab;
 }
 
+#about .row {
+  align-items: stretch;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -88,11 +92,15 @@ nav ul li a:hover::after {
 
 .about-col-1 {
   flex-basis: 35%;
+  display: flex;
 }
 
 .about-col-1 img {
-  width: 95%;
+  width: 100%;
+  height: 100%;
   border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .about-col-2 {
