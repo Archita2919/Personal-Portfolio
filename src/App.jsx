@@ -281,6 +281,24 @@ function App() {
               </div>
             </div>
             <div className="work">
+              <img src="/images/DocWise.png" alt="DocWise project" />
+              <div className="layer">
+                <h3>
+                  <b>DocWise WebApp</b>
+                </h3>
+                <p>
+                  Doctor Booking Appointment WebApp.
+                </p>
+                <a
+                  href="https://doctorwise.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+            <div className="work">
               <img src="/images/tic_tac_toe.jpg" alt="Tic-tac-toe game project" />
               <div className="layer">
                 <h3>
@@ -299,8 +317,8 @@ function App() {
                 </a>
               </div>
             </div>
-            {/* <div className="work">
-              <img src="/images/Netflix.jpg" alt="Netflix clone project" />
+            <div className="work">
+              <img src="/images/NetFlix_White.png" alt="Netflix clone project" />
               <div className="layer">
                 <h3>
                   <b>Netflix Clone</b>
@@ -317,7 +335,7 @@ function App() {
                   <i className="fa-solid fa-link"></i>
                 </a>
               </div>
-            </div> */}
+            </div>
             <div className="work">
               <img src="/images/weather.jpg" alt="Weather app project" />
               <div className="layer">
