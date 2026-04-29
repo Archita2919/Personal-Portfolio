@@ -242,7 +242,7 @@ function App() {
         <div className="container">
           <h2 className="sub-title">My Work</h2>
           <div className="work-list">
-            <div className="work">
+            {/* <div className="work">
               <img src="/images/Foody_Fiesta.jpg" alt="FoodyFiesta project" />
               <div className="layer">
                 <h3>
@@ -260,7 +260,7 @@ function App() {
                   <i className="fa-solid fa-link"></i>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="work">
               <img src="/images/To_do_list.jpg" alt="To-do App project" />
               <div className="layer">
